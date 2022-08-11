@@ -13,6 +13,7 @@
 		C5BA8867261CDA8100398C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BA8866261CDA8100398C46 /* Assets.xcassets */; };
 		C5BA886A261CDA8100398C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BA8868261CDA8100398C46 /* LaunchScreen.storyboard */; };
 		C5BA886D261CDA8100398C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA886C261CDA8100398C46 /* main.m */; };
+		C5EE978628A51E7A00F3C245 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE978528A51E7900F3C245 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C5BA8869261CDA8100398C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5BA886B261CDA8100398C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5BA886C261CDA8100398C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5EE978428A51E7900F3C245 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C5EE978528A51E7900F3C245 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				C5BA885B261CDA7E00398C46 /* AppDelegate.m */,
 				C5BA8860261CDA7E00398C46 /* ViewController.h */,
 				C5BA8861261CDA7E00398C46 /* ViewController.m */,
+				C5EE978428A51E7900F3C245 /* Dog.h */,
+				C5EE978528A51E7900F3C245 /* Dog.m */,
 				C5BA8863261CDA7E00398C46 /* Main.storyboard */,
 				C5BA8866261CDA8100398C46 /* Assets.xcassets */,
 				C5BA8868261CDA8100398C46 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			files = (
 				C5BA8862261CDA7E00398C46 /* ViewController.m in Sources */,
 				C5BA885C261CDA7E00398C46 /* AppDelegate.m in Sources */,
+				C5EE978628A51E7A00F3C245 /* Dog.m in Sources */,
 				C5BA886D261CDA8100398C46 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
