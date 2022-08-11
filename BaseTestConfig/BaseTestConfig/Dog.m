@@ -8,5 +8,7 @@
 #import "Dog.h"
 
 @implementation Dog
-
+- (void)test{
+    NSLog(@"%s",__func__);
+}
 @end
