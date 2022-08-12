@@ -10,5 +10,6 @@
 @implementation Dog
 - (void)test{
     NSLog(@"%s??",__func__);
+    NSLog(@"%s dev",__func__);
 }
 @end
