@@ -16,6 +16,8 @@
 }
 
 - (void)dev{
+    NSLog(@"dev");
+    [self test];
     
     NSLog(@"%s",__func__);
  }
