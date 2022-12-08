@@ -9,8 +9,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef enum : NSUInteger {
+    male,
+    famale
+} dogGender;
+
 @interface Dog : NSObject
 
+@property (nonatomic, strong) NSString *dogName;
+@property (nonatomic, assign) dogGender gender;
 @end
 
 NS_ASSUME_NONNULL_END
