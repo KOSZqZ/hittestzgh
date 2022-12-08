@@ -13,6 +13,8 @@
     NSLog(@"%s dev",__func__);
      NSLog(@"%s??",__func__);
     NSLog(@"%s??",__func__);
+    NSLog(@"%s??",__func__);
+
 }
 
 - (void)dev{
